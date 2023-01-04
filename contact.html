@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>University Web desine</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<section class="headers">
+		<nav>
+		<a href="#"><img class="logo" src="logo.png"></a>
+		<div class="nav-box" id="navlinks">
+			<i class="fa fa-times" onclick="hidemenu()"></i>
+			<UL>
+					<li><a href="index.html"> Home </a></li>
+			<li><a href="about.html">About </a> </li>
+			<li><a href="course.html">Course</a></li>
+			<li><a href="Blogs.html">Blog</a></li>
+			<li><a href="contact.html"> Contact </a> </li>
+
+		</UL>
+		
+		</div>
+		<i class="fa fa-bars" onclick="showmenu()"></i>
+</nav>
+
+
+<div class="text-box">
+
+<h1>Contact Us</h1>
+
+</div>
+	</section>
+
+	<!-- ----------contat us----- -->
+
+
+	<section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d227713.506490661!2d75.57517598524655!3d26.90274804847596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d26.911122499999998!2d75.6091692!4m5!1s0x396db14b1bd30ba5%3A0x860e5d531eccb20c!2z4KS54KS14KS-4KSu4KS54KSy!3m2!1d26.923936299999998!2d75.8267438!5e0!3m2!1sen!2sin!4v1672671010047!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		
+	</section>
+
+
+
+	<section class="Contact">
+		
+		<div class="row">
+			<div class="Contact-col">
+				<div>
+					<i class="fa fa-home"></i>
+					<span>
+						<h5>Ram nager Road, jaipur</h5>
+						<p>Jaipur ,Rajsthan,India</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<span>
+						<h5>+91 7232816781</h5>
+						<p>Mondat to saturday, 10AM to 6PM</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-envelope-o"></i>
+					<span>
+						<h5>ashishjat126@gmail.com</h5>
+						<p>Jaipur ,Rajsthan,India</p>
+					</span>
+				</div>
+
+			</div>
+
+			<div class="Contact-col">
+				<form >
+					<input type="text" name="" placeholder="Enter your Name" required>
+					<input type="email" name="" placeholder="Enter your Email" required>
+					<input type="text" name="" placeholder="Enter your Subjact" required>
+					<textarea rows="8" placeholder="Massage"></textarea>
+					<button type="submit" class="href-btn red-btn">send massage</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+
+
+
+<!-- footer -->
+<section class="footer">
+	<h3>About Us</h3>
+	<p> Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+	<i class="fa fa-facebook"></i>
+	<i class="fa fa-instagram"></i>
+	<i class="fa fa-twitter"></i>
+	<i class="fa fa-linkedin"></i>
+
+	<p>Made with<i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>
+
+
+
+
+<!-- javascript in this file -->
+	<script >
+		var navlinks = document.getElementById("navlinks");
+		function showmenu(){
+			navlinks.style.right ="0";
+		}
+	function hidemenu(){
+			navlinks.style.right ="-150px";
+		}
+	
+		
+	</script>
+
+</body>
+</html>
